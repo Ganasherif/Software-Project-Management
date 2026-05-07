@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-body bg-cream text-navy antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+  /* Range slider */
+  input[type='range'] {
+    @apply w-full accent-teal;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  .input-base {
+    @apply w-full rounded-xl border border-navy/10 bg-white px-4 py-2.5 text-navy placeholder:text-navy/40 transition focus:outline-none focus:ring-2 focus:ring-teal focus:border-transparent;
+  }
+  .label-base {
+    @apply block text-sm font-medium text-navy/80 mb-1.5;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full bg-mint/15 text-teal px-3 py-1 text-xs font-semibold;
+  }
+  .pill {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-semibold;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-5 py-2.5 font-semibold transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-primary {
+    @apply btn bg-orange text-white shadow-cta hover:bg-orange/90 active:scale-[0.98];
+  }
+  .btn-secondary {
+    @apply btn bg-teal text-white hover:bg-teal/90 active:scale-[0.98];
+  }
+  .btn-ghost {
+    @apply btn bg-transparent text-navy hover:bg-navy/5;
+  }
+  .btn-outline {
+    @apply btn border border-navy/15 bg-white text-navy hover:border-teal hover:text-teal;
+  }
+  .card {
+    @apply bg-white rounded-2xl shadow-soft transition;
+  }
+  .card-hover {
+    @apply card hover:shadow-card hover:-translate-y-1;
+  }
+  .section {
+    @apply py-16 sm:py-20;
+  }
+  .heading-xl {
+    @apply text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight;
+  }
+  .heading-lg {
+    @apply text-3xl sm:text-4xl font-bold tracking-tight;
+  }
+  .heading-md {
+    @apply text-2xl sm:text-3xl font-bold tracking-tight;
+  }
+  .text-muted {
+    @apply text-navy/60;
+  }
+}
