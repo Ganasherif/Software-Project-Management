@@ -12,7 +12,7 @@ export const tours = [
     theme: 'Cultural',
     cities: ['Cairo', 'Luxor', 'Aswan'],
     price: 1290,
-    image: img('photo-1539650116574-75c0c6d73c0e'),
+    image: img('photo-1572252009286-268acec5ca0a'),
     highlights: [
       'Private tour of the Giza Pyramids',
       '4-night luxury Nile cruise',
