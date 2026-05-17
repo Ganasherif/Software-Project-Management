@@ -37,7 +37,7 @@ export default function Footer() {
     e.preventDefault()
     const email = e.target.email.value
     if (!email) return
-    toast.success('Subscribed! Welcome to the Gana Travel insider list.')
+    toast.success('Subscribed! Welcome to the Roame insider list.')
     e.target.reset()
   }
 
@@ -49,7 +49,7 @@ export default function Footer() {
             <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-cream text-navy">
               <Plane className="h-5 w-5 -rotate-45" />
             </span>
-            <span className="text-xl">Gana Travel</span>
+            <span className="text-xl">Roame</span>
           </Link>
           <p className="mt-4 text-sm text-cream/70 max-w-sm leading-relaxed">
             Your journey, unified. Book flights, hotels, and unforgettable tour packages from a single,
@@ -103,14 +103,14 @@ export default function Footer() {
             ))}
           </div>
           <p className="mt-6 text-xs text-cream/60">
-            Email: <a href="mailto:hello@ganatravel.example" className="hover:text-orange">hello@ganatravel.example</a>
+            Email: <a href="mailto:hello@roame.example" className="hover:text-orange">hello@roame.example</a>
           </p>
         </div>
       </div>
 
       <div className="border-t border-cream/10">
         <div className="container-page py-5 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-cream/60">
-          <p>© {new Date().getFullYear()} Gana Travel. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Roame. All rights reserved.</p>
           <p className="flex items-center gap-2">
             <ShieldCheck className="h-4 w-4 text-mint" />
             Licensed by Ministry of Tourism

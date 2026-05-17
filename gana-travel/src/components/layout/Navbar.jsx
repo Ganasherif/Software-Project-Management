@@ -38,7 +38,7 @@ export default function Navbar() {
           <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-navy text-orange">
             <Plane className="h-5 w-5 -rotate-45" />
           </span>
-          <span className="text-xl">Gana Travel</span>
+          <span className="text-xl">Roame</span>
         </Link>
 
         <ul className="hidden md:flex items-center gap-1">

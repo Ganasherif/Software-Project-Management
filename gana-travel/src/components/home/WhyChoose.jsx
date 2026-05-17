@@ -28,7 +28,7 @@ export default function WhyChoose() {
     <section className="section bg-white">
       <div className="container-page">
         <div className="text-center max-w-2xl mx-auto mb-12">
-          <p className="text-sm font-semibold text-teal mb-2">Why Gana Travel</p>
+          <p className="text-sm font-semibold text-teal mb-2">Why Roame</p>
           <h2 className="heading-lg text-navy">Built for the modern traveler</h2>
           <p className="text-muted mt-3">
             Everything you need to plan, book, and enjoy your trip — without the stress.

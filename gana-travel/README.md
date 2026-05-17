@@ -1,8 +1,8 @@
-# Gana Travel — جانا للسياحة
+# Roame
 
 A polished, frontend-only **React** prototype for a unified travel and tourism booking platform. Browse flights, hotels, and curated tour packages across two continents — all from a single, modern interface.
 
-> Built as a university Software Project Management deliverable. The entire UI is in English; the brand's Arabic name (جانا للسياحة) is shown only as part of the project identity.
+> Built as a university Software Project Management deliverable.
 
 ---
 
@@ -117,9 +117,9 @@ gana-travel/
 
 This is a **frontend-only prototype**. No real bookings are made and no real payments are processed.
 
-- "Login" and "Register" accept any non-empty credentials. A mock user object is stored in `localStorage` under `gana_auth_user`.
-- "Confirm Booking" generates a random 8-character confirmation number, shows a success modal, and persists the booking to `localStorage` under `gana_bookings` so it shows up on the dashboard.
-- "Save" hearts on hotels and tours persist to `gana_saved_hotels` / `gana_saved_tours`.
+- "Login" and "Register" accept any non-empty credentials. A mock user object is stored in `localStorage` under `roame_auth_user`.
+- "Confirm Booking" generates a random 8-character confirmation number, shows a success modal, and persists the booking to `localStorage` under `roame_bookings` so it shows up on the dashboard.
+- "Save" hearts on hotels and tours persist to `roame_saved_hotels` / `roame_saved_tours`.
 - Choosing a membership plan updates the user's `tier` in context + `localStorage` only — no charge.
 - Card inputs use lightweight formatting masks but no validation against real card networks.
 - All images are loaded from public Unsplash URLs.
@@ -130,4 +130,4 @@ To reset the app to its initial state, clear site data for the dev server origin
 
 ## 📜 License
 
-Educational use. © Gana Travel — university project deliverable.
+Educational use. © Roame — university project deliverable.

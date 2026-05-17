@@ -10,7 +10,7 @@ export default function MembershipTeaser() {
         <div className="relative grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           <div className="lg:col-span-8">
             <span className="inline-flex items-center gap-2 rounded-full bg-white/15 backdrop-blur px-3 py-1 text-xs font-semibold uppercase tracking-wider">
-              <Sparkles className="h-3.5 w-3.5 text-orange" /> Gana Membership
+              <Sparkles className="h-3.5 w-3.5 text-orange" /> Roame Membership
             </span>
             <h2 className="heading-lg mt-4">Travel more. Save more. Stress less.</h2>
             <p className="mt-3 text-white/85 max-w-xl">

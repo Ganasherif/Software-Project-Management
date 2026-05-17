@@ -12,7 +12,7 @@ export default function FeaturedDestinations() {
             <p className="text-sm font-semibold text-teal mb-2">Top picks</p>
             <h2 className="heading-lg text-navy">Featured Destinations</h2>
             <p className="text-muted mt-2 max-w-xl">
-              Discover the world's most loved cities — handpicked by Gana Travel experts.
+              Discover the world's most loved cities — handpicked by Roame experts.
             </p>
           </div>
           <Link

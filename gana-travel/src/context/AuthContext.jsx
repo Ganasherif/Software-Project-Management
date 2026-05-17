@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useMemo, useState } from 'react'
 
 const AuthContext = createContext(null)
 
-const STORAGE_KEY = 'gana_auth_user'
+const STORAGE_KEY = 'roame_auth_user'
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null)
@@ -21,7 +21,7 @@ export function AuthProvider({ children }) {
   const login = ({ email, name }) => {
     const profile = {
       name: name || (email ? email.split('@')[0] : 'Demo User'),
-      email: email || 'demo@gana.travel',
+      email: email || 'demo@roame.com',
       tier: 'Basic',
       joined: new Date().toISOString(),
     }

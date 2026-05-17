@@ -9,7 +9,7 @@ import EmptyState from '../components/ui/EmptyState.jsx'
 import Badge from '../components/ui/Badge.jsx'
 import Button from '../components/ui/Button.jsx'
 
-const SAVED_KEY = 'gana_saved_tours'
+const SAVED_KEY = 'roame_saved_tours'
 
 const matchDuration = (days, opt) => {
   if (opt === '3-5') return days >= 3 && days <= 5

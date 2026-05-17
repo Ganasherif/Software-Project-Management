@@ -15,7 +15,7 @@ const testimonials = [
     avatar: 'https://i.pravatar.cc/120?img=12',
     rating: 5,
     quote:
-      "I've used five travel sites — Gana is the cleanest. Pricing is transparent and the dashboard makes managing past trips effortless.",
+      "I've used five travel sites — Roame is the cleanest. Pricing is transparent and the dashboard makes managing past trips effortless.",
   },
   {
     name: 'Layla Hassan',

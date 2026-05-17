@@ -13,7 +13,7 @@ export default function AuthShell({ title, subtitle, side = 'left', children }) 
           <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-white text-navy">
             <Plane className="h-5 w-5 -rotate-45" />
           </span>
-          <span className="text-xl">Gana Travel</span>
+          <span className="text-xl">Roame</span>
         </Link>
         <div>
           <p className="text-3xl font-heading font-bold leading-tight max-w-md">
@@ -34,7 +34,7 @@ export default function AuthShell({ title, subtitle, side = 'left', children }) 
             <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-navy text-orange">
               <Plane className="h-5 w-5 -rotate-45" />
             </span>
-            <span className="text-xl">Gana Travel</span>
+            <span className="text-xl">Roame</span>
           </Link>
           <h1 className="text-3xl font-bold text-navy">{title}</h1>
           <p className="mt-2 text-muted">{subtitle}</p>

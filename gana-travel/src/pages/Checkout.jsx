@@ -10,7 +10,7 @@ import BookingConfirmation from '../components/checkout/BookingConfirmation.jsx'
 import { useAuth } from '../context/AuthContext.jsx'
 import { getDiscountForTier } from '../data/plans.js'
 
-const BOOKINGS_KEY = 'gana_bookings'
+const BOOKINGS_KEY = 'roame_bookings'
 
 const fallbackTour = {
   type: 'tour',

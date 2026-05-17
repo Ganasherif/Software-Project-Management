@@ -10,9 +10,9 @@ import { plans, getPlanById } from '../data/plans.js'
 import Badge from '../components/ui/Badge.jsx'
 import EmptyState from '../components/ui/EmptyState.jsx'
 
-const BOOKINGS_KEY = 'gana_bookings'
-const SAVED_HOTELS_KEY = 'gana_saved_hotels'
-const SAVED_TOURS_KEY = 'gana_saved_tours'
+const BOOKINGS_KEY = 'roame_bookings'
+const SAVED_HOTELS_KEY = 'roame_saved_hotels'
+const SAVED_TOURS_KEY = 'roame_saved_tours'
 
 const TABS = [
   { id: 'bookings', label: 'My Bookings' },

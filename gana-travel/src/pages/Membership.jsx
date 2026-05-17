@@ -25,12 +25,12 @@ export default function Membership() {
       <div className="bg-gradient-to-br from-navy via-teal to-mint text-white">
         <div className="container-page py-16 sm:py-24 text-center">
           <span className="inline-flex items-center gap-2 rounded-full bg-white/15 backdrop-blur px-3 py-1 text-xs font-semibold uppercase tracking-wider">
-            <Sparkles className="h-3.5 w-3.5 text-orange" /> Gana Membership
+            <Sparkles className="h-3.5 w-3.5 text-orange" /> Roame Membership
           </span>
           <h1 className="heading-xl mt-4">Travel More, Save More</h1>
           <p className="mt-5 text-lg text-white/85 max-w-2xl mx-auto">
             Unlock member-only pricing, free cancellations, and priority support across every booking
-            you make on Gana Travel.
+            you make on Roame.
           </p>
         </div>
       </div>

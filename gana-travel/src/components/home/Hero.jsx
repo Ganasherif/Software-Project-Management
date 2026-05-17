@@ -15,7 +15,7 @@ export default function Hero() {
         <div className="relative container-page h-full flex flex-col justify-center pt-16">
           <div className="max-w-3xl text-white animate-fadeUp">
             <p className="inline-flex items-center gap-2 rounded-full bg-white/15 backdrop-blur px-3 py-1 text-xs font-semibold uppercase tracking-wide mb-5">
-              <span className="h-1.5 w-1.5 rounded-full bg-orange" /> Welcome to Gana Travel
+              <span className="h-1.5 w-1.5 rounded-full bg-orange" /> Welcome to Roame
             </p>
             <h1 className="heading-xl">
               Your Journey, <span className="text-orange">Unified</span>

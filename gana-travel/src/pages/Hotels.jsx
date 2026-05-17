@@ -11,7 +11,7 @@ import { Select } from '../components/ui/Input.jsx'
 import { useAuth } from '../context/AuthContext.jsx'
 import { getDiscountForTier } from '../data/plans.js'
 
-const SAVED_KEY = 'gana_saved_hotels'
+const SAVED_KEY = 'roame_saved_hotels'
 
 const defaultSearch = {
   destination: '',
